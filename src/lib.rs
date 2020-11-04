@@ -1,3 +1,7 @@
+pub fn hi() -> String {
+    "hi".to_owned()
+}
+
 #[cfg(test)]
 mod tests {
     #[test]
